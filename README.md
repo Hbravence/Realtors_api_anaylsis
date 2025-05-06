@@ -21,4 +21,3 @@ This project retrieves **New York City real estate data** from **Realtor.com API
   - **Square footage**  
 - Visualized the correlation using a **scatter plot with a trend line** to assess pricing patterns.  
 
-*!
