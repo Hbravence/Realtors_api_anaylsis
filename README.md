@@ -19,5 +19,11 @@ This project retrieves **New York City real estate data** from **Realtor.com API
 - Examined the **relationship between price and key property attributes**:  
   - **Number of beds & baths**  
   - **Square footage**  
-- Visualized the correlation using a **scatter plot with a trend line** to assess pricing patterns.  
+- Visualized the correlation using a **scatter plot with a trend line** to assess pricing patterns.
+
+### Random Forest Model
+- Put the real estate data through a random forest model for price prediction.
+    - Used SQFT, Beds, and Baths for the first model
+    - 2nd Model added zip code with an encoder, didn't see any improvements in the model
+- A future improvement would be to pull in the neighborhood where the property is listed and see if that is a better predictor of price than the Zipcode.
 
