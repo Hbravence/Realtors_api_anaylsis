@@ -22,7 +22,7 @@ Then, a random forest model is implemented to predict the price of real estate b
   - **Square footage**  
 - Visualized the correlation using a **scatter plot with a trend line** to assess pricing patterns.
 
-### Random Forest Model
+### 🌳 Random Forest Model
 - Put the real estate data through a random forest model for price prediction.
     - Used SQFT, Beds, and Baths for the first model
     - 2nd Model added zip code with an encoder, didn't see any improvements in the model
