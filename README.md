@@ -1,7 +1,8 @@
 # 📊 Realtor API Analysis  
 
 ### 🔍 Overview  
-This project retrieves **New York City real estate data** from **Realtor.com API** and transforms the raw JSON format into a structured **Pandas DataFrame** for further analysis.  
+This project retrieves **New York City real estate data** from **Realtor.com API** and transforms the raw JSON format into a structured **Pandas DataFrame** for further analysis. 
+Then, a random forest model is implemented to predict the price of real estate based on several features. 
 
 ### 🏡 Data Structure & Processing  
 - The API returns **two nested data levels**:  
@@ -25,5 +26,5 @@ This project retrieves **New York City real estate data** from **Realtor.com API
 - Put the real estate data through a random forest model for price prediction.
     - Used SQFT, Beds, and Baths for the first model
     - 2nd Model added zip code with an encoder, didn't see any improvements in the model
-- A future improvement would be to pull in the neighborhood where the property is listed and see if that is a better predictor of price than the Zipcode.
+A future improvement would be to incorporate the neighborhood where the property is listed and see if that is a better predictor of price than the Zip Code.
 
